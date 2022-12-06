@@ -7,7 +7,7 @@ import "./style.css";
 const CarrouselComponent = () => {
   return (
     <Container className="hero">
-      <Grid container spacing={2} sx={{ mt: "30px" }}>
+      <Grid container spacing={2} >
         <Grid
           item
           xs={12}
@@ -20,9 +20,9 @@ const CarrouselComponent = () => {
         >
           <h3>Hi I'm</h3>
           <h1>Sani Hamdhani</h1>
-          <h4>FRONTEND DEVELOPER | UI ENTHUSIAST</h4>
+          <h4>FRONTEND DEVELOPER</h4>
 
-          <button className="button">Get In Touch</button>
+          <button className="button" onClick={() => window.open("mailto: sani060200@gmail.com")}>Get In Touch</button>
           <div className="social-media">
             <IconButton
               onClick={() =>

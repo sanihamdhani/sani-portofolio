@@ -34,7 +34,7 @@ const DrawerData = ({ link, linkEx, linkProject, goTo }) => {
           <ListItemButton onClick={() => goTo(linkProject.current)}>
             My Project
           </ListItemButton>
-          <ListItemButton>Mode</ListItemButton>
+         
         </List>
       </Drawer>
       {isMobile ? <MenuIcon onClick={toogleMenu} /> : "X"}

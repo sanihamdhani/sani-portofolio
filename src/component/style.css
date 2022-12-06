@@ -31,10 +31,7 @@ body {
   
 }
 
-.hero{
-   
-   
-}
+
 .hero h1{
     font-family: var(--headings-font-family);
  font-size: 4em;
@@ -221,6 +218,14 @@ text-align: right;
    }
    .use-teckno{
    justify-content: center;
+}
+
+.hero{
+   
+  
+}
+.hero h3{
+    /* margin-top: 100px; */
 }
   }
 
